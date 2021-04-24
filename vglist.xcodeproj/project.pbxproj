@@ -15,6 +15,10 @@
 		0B2860842633DECB00378FB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2860822633DECB00378FB2 /* HomeView.swift */; };
 		0B28608A2633E19300378FB2 /* GraphQL in Resources */ = {isa = PBXBuildFile; fileRef = 0B2860892633E19300378FB2 /* GraphQL */; };
 		0B28608B2633E19300378FB2 /* GraphQL in Resources */ = {isa = PBXBuildFile; fileRef = 0B2860892633E19300378FB2 /* GraphQL */; };
+		0B2860D42633EC5A00378FB2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2860D32633EC5A00378FB2 /* API.swift */; };
+		0B2860D52633EC5A00378FB2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2860D32633EC5A00378FB2 /* API.swift */; };
+		0B2860DB2633EC9F00378FB2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2860DA2633EC9F00378FB2 /* Network.swift */; };
+		0B2860DC2633EC9F00378FB2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2860DA2633EC9F00378FB2 /* Network.swift */; };
 		0BB208EB2633CF1A00D7B69C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB208EA2633CF1A00D7B69C /* Tests_iOS.swift */; };
 		0BB208F62633CF1A00D7B69C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB208F52633CF1A00D7B69C /* Tests_macOS.swift */; };
 		0BB208F82633CF1A00D7B69C /* vglistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB208CF2633CF1900D7B69C /* vglistApp.swift */; };
@@ -49,6 +53,8 @@
 		0B2860822633DECB00378FB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0B2860892633E19300378FB2 /* GraphQL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GraphQL; sourceTree = "<group>"; };
 		0B2860C32633E99A00378FB2 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		0B2860D32633EC5A00378FB2 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0B2860DA2633EC9F00378FB2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		0BB208CF2633CF1900D7B69C /* vglistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vglistApp.swift; sourceTree = "<group>"; };
 		0BB208D02633CF1900D7B69C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BB208D12633CF1A00D7B69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 		0BB208C92633CF1900D7B69C = {
 			isa = PBXGroup;
 			children = (
+				0B2860D32633EC5A00378FB2 /* API.swift */,
 				0B2860C32633E99A00378FB2 /* schema.json */,
 				0BB208CE2633CF1900D7B69C /* Shared */,
 				0BB208D82633CF1A00D7B69C /* iOS */,
@@ -121,6 +128,7 @@
 				0B2860742633DE3500378FB2 /* SearchView.swift */,
 				0B28607B2633DE7900378FB2 /* ProfileView.swift */,
 				0BB208D12633CF1A00D7B69C /* Assets.xcassets */,
+				0B2860DA2633EC9F00378FB2 /* Network.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -362,6 +370,8 @@
 				0BB208FA2633CF1A00D7B69C /* ContentView.swift in Sources */,
 				0B2860752633DE3500378FB2 /* SearchView.swift in Sources */,
 				0B2860832633DECB00378FB2 /* HomeView.swift in Sources */,
+				0B2860D42633EC5A00378FB2 /* API.swift in Sources */,
+				0B2860DB2633EC9F00378FB2 /* Network.swift in Sources */,
 				0BB208F82633CF1A00D7B69C /* vglistApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +384,8 @@
 				0BB208FB2633CF1A00D7B69C /* ContentView.swift in Sources */,
 				0B2860762633DE3500378FB2 /* SearchView.swift in Sources */,
 				0B2860842633DECB00378FB2 /* HomeView.swift in Sources */,
+				0B2860D52633EC5A00378FB2 /* API.swift in Sources */,
+				0B2860DC2633EC9F00378FB2 /* Network.swift in Sources */,
 				0BB208F92633CF1A00D7B69C /* vglistApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
