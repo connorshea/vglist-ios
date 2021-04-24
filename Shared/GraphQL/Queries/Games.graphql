@@ -1,0 +1,10 @@
+query Games($cursor: String!) {
+  games(after: $cursor) {
+    nodes {
+      ...gameCardFields
+    }
+    pageInfo {
+      ...paginationFields
+    }
+  }
+}
