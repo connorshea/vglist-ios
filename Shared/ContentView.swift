@@ -11,14 +11,14 @@ struct HomeView: View {
     var body: some View {
         VStack(alignment: .center) {
             Text("vglist")
-                .font(.title2)
+                .font(.title)
                 .fontWeight(.medium)
-                .padding(.all, 5)
+                .padding(EdgeInsets(top: 50, leading: 5, bottom: 10, trailing: 5))
             Text("Track your entire video game library across every store and platform.")
                 .font(.subheadline)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
-                .frame(width: 300)
+                .padding(.horizontal, 50)
             Spacer()
         }
     }
