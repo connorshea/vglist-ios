@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack(alignment: .center) {
             Text("vglist")
@@ -19,7 +19,42 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
                 .frame(width: 300)
+            Spacer()
         }
+    }
+}
+
+struct ProfileView: View {
+    var body: some View {
+        Text("Profile")
+    }
+}
+
+struct SearchView: View {
+    var body: some View {
+        Text("Search")
+    }
+}
+
+struct ContentView: View {
+    var body: some View {
+        TabView {
+            HomeView().tabItem {
+                Image(systemName: "house")
+                Text("Home")
+            }.tag(1)
+
+            SearchView().tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Search")
+            }.tag(2)
+
+            ProfileView().tabItem {
+                Image(systemName: "person.crop.circle")
+                Text("Profile")
+            }.tag(3)
+        }
+        .accentColor(.purple)
     }
 }
 
